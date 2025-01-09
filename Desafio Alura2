@@ -1,0 +1,32 @@
+let Dia = prompt('Que dia da semana é hoje?');
+console.log(`O dia da semana é ${Dia}`);
+if (Dia == 'Sabado'){
+    alert(`Bom ${Dia}, tenha um exelente final de semana!`);
+} else if (Dia == 'Domingo') {
+    alert(`Bom ${Dia}, tenha um exelente final de semana!`);
+} else {
+    alert(`Boa ${Dia}-Feira, tenha uma exelente semana!`);
+}
+//------------------------------------------------------------------------------------------
+let Numero = prompt('Digite um numero e verificaremos se é positivo ou negativo')
+console.log(`Numero == ${Numero}`)
+if (Numero >= 0){
+    alert(`O numero digitado (${Numero}) é Positivo`)
+} else{
+    alert(`O numero digitado (${Numero}) é Negativo`)
+}
+//------------------------------------------------------------------------------------------
+let pontos = prompt('Quantos pontos você fez?')
+console.log(`O numero de pontos registrado foi ${pontos}`)
+if (pontos >= 100){
+    console.log('Parabens você venceu!')
+} else{
+    console.log('Tente novamente para ganhar.')
+}
+//------------------------------------------------------------------------------------------
+let Saldo = prompt('Qual o saldo atual da sua conta?')
+alert(`O saldo atual é de R$${Saldo}`)
+//------------------------------------------------------------------------------------------
+let Nome = prompt('Qual o nome de usuario?')
+alert(`Boas vindas ${Nome}!!!`)
+//------------------------------------------------------------------------------------------
